@@ -367,8 +367,8 @@ Module Source Code
           username: "{{ username }}"
           password: "{{ password }}"
           vdom:  "{{ vdom }}"
+          state: "present"
           system_zone:
-            state: "present"
             interface:
              -
                 interface-name: "<your_own_value> (source system.interface.name)"
